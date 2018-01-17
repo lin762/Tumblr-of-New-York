@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CE1EBF2F14339919193602B /* Pods_TumblrOfNewYorkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42869AD31FE3C9496201E7F8 /* Pods_TumblrOfNewYorkTests.framework */; };
 		350373F85CFE74738E6C989A /* Pods_TumblrOfNewYorkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBD7D3EC22B80B96D14356C /* Pods_TumblrOfNewYorkUITests.framework */; };
+		83958041201005B3007D5555 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83958040201005B3007D5555 /* PhotoDetailsViewController.swift */; };
 		83D38D2120090B750060EF37 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D38D2020090B750060EF37 /* PhotoViewController.swift */; };
 		83D38D25200BA1B20060EF37 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D38D24200BA1B20060EF37 /* PhotoCell.swift */; };
 		83E911C6200827DF009C1329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E911C5200827DF009C1329 /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 		2A4C189C90E9B1DD6FDBCEE7 /* Pods-TumblrOfNewYorkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrOfNewYorkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrOfNewYorkUITests/Pods-TumblrOfNewYorkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		42869AD31FE3C9496201E7F8 /* Pods_TumblrOfNewYorkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrOfNewYorkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A21CE409B3C90AC8B8FA3ED /* Pods-TumblrOfNewYorkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrOfNewYorkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrOfNewYorkTests/Pods-TumblrOfNewYorkTests.release.xcconfig"; sourceTree = "<group>"; };
+		83958040201005B3007D5555 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		83D38D2020090B750060EF37 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		83D38D24200BA1B20060EF37 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		83E911C2200827DF009C1329 /* TumblrOfNewYork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrOfNewYork.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 				83E911C5200827DF009C1329 /* AppDelegate.swift */,
 				83D38D24200BA1B20060EF37 /* PhotoCell.swift */,
 				83D38D2020090B750060EF37 /* PhotoViewController.swift */,
+				83958040201005B3007D5555 /* PhotoDetailsViewController.swift */,
 				83E911C9200827DF009C1329 /* Main.storyboard */,
 				83E911CC200827DF009C1329 /* Assets.xcassets */,
 				83E911CE200827DF009C1329 /* LaunchScreen.storyboard */,
@@ -463,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83958041201005B3007D5555 /* PhotoDetailsViewController.swift in Sources */,
 				83E911C6200827DF009C1329 /* AppDelegate.swift in Sources */,
 				83D38D25200BA1B20060EF37 /* PhotoCell.swift in Sources */,
 				83D38D2120090B750060EF37 /* PhotoViewController.swift in Sources */,
