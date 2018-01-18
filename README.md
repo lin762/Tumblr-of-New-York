@@ -58,19 +58,19 @@ Describe any challenges encountered while building the app.
 
 **Tumblr of New York** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can tab an image to view a larger image in a detail view (5pts)
+- [x] User can tap an image to view a larger image in a detail view (5pts)
 
 The following **optional** user stories are implemented:
 
 - [ ] Add Avatar and Publish Dates (+2pt)
 - [ ] Zoomable Photo View (+2pt)
-- [ ] Infinite Scrolling (+2pt)
+- [x] Infinite Scrolling (+2pt)
 
 The following **additional** user stories are implemented:
 
@@ -95,7 +95,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2018 Chris Lin
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
